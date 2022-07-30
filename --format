@@ -1,0 +1,30 @@
+
+An error occurred while loading ./html.
+Failure/Error: __send__(method, file)
+
+LoadError:
+  cannot load such file -- /home/user/Development/code/Phase0/phase-0-html-experiencing-html-lab/html
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/configuration.rb:2115:in `load'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/configuration.rb:2115:in `load_file_handling_errors'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/configuration.rb:1615:in `block in load_spec_files'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/configuration.rb:1613:in `each'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/configuration.rb:1613:in `load_spec_files'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/runner.rb:102:in `setup'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/runner.rb:86:in `run'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/runner.rb:71:in `run'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/lib/rspec/core/runner.rb:45:in `invoke'
+# /usr/share/rvm/gems/ruby-2.7.4/gems/rspec-core-3.11.0/exe/rspec:4:in `<top (required)>'
+# /usr/share/rvm/gems/ruby-2.7.4/bin/rspec:25:in `load'
+# /usr/share/rvm/gems/ruby-2.7.4/bin/rspec:25:in `<main>'
+# /usr/share/rvm/gems/ruby-2.7.4/bin/ruby_executable_hooks:22:in `eval'
+# /usr/share/rvm/gems/ruby-2.7.4/bin/ruby_executable_hooks:22:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+
+Finished in 0.00002 seconds (files took 0.10244 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
